@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*10px/16px = 0.625 = 62.5%*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  width: 100%;
+  background: linear-gradient(to right, #ff9933 0%, #9999ff 100%);
+  background-size: cover;
+  background-position: top;
+}
+.container {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 45%;
+  padding: 5rem 6rem 5rem 5rem;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.flex {
+  display: flex;
+  align-items: flex-start;
+}
+.client-img {
+  position: relative;
+   margin-right: 2rem;
+}
+.img-client {
+  height: 50px;
+  width: 50px;
+}
+.vl {
+  border-left: 2px solid lightgrey;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 110%;
+}
+.vl-adam {
+  height: 500%;
+}
+.v1-sara {
+  height: 148px;
+}
+.v1-jessica {
+  height: 30px;
+}
+.v1-andrew {
+  height: 30px;
+}
+.client-details {
+  gap:  1rem;
+  margin: 1rem 0;
+}
+.comment-text {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.feedback {
+  gap:  0.6rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.arrow {
+  height: 10px;
+  width: 10px;
+}
+strong {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.reply,
+.report {
+  font-weight: 400;
+}
+.sara-box {
+  margin-left: 13%;
+}
+.jessica-box {
+  margin-left: 26%;
+}
+.feedback-jessica {
+  margin-bottom: 5rem;
+}
+.jessica-feedback {
+  gap:  1rem;
+}
+
+/**********************/
+/*Below 944px (Tablets*/
+/***********************/
+
+@media(max-width:59em ){
+  html {
+    /*8px /16 = 0.5*/
+    font-size: 70%;
+  }
+  .container {
+    margin-top: 10rem;
+    width: 70%;
+  }
+  .vl-adam {
+    height: 590%;
+  }
+  .v1-sara {
+    height: 340%;
+  }
+  .v1-jessica {
+    height: 90%;
+  }
+  .v1-andrew {
+    height: 90%;
+  }
+}
+
+@media only Screen and (max-width: 40em) {
+  html {
+    font-size: 60%;
+  }
+  .container {
+    padding: 4rem 3rem 4rem 1rem;
+  }
+  .sara-box {
+    margin-left: 22%;
+  }
+  .jessica-box {
+    margin-left: 44%;
+  }
+  .client-details-jessica,
+  .jessica-feedback {
+    flex-direction: column;
+  }
+  .vl-adam {
+    height: 710%;
+  }
+  .v1-sara {
+    height: 445%;
+  }
+  .v1-jessica {
+    height: 155%;
+  }
+  .v1-andrew {
+    height: 60%;
+  }
+}
