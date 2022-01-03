@@ -28,3 +28,4 @@ If you want more real-time communication, you can visit our community on [Slack]
 ### Fonts Used
 
 https://fonts.google.com/specimen/Rubik# comment-starter
+![Screenshot 2022-01-03 at 21-16-17 Comment Template](https://user-images.githubusercontent.com/82536545/147970569-f375a083-4813-42fe-868c-28c182322f6a.png)
